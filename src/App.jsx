@@ -26,52 +26,36 @@ function App() {
       </Navbar>
 
 
-      <div className='container mt-5 pt-2 '>
-        <div>
-          <Table style={{ backgroundColor: "#1b4e66" }} className='text-light' responsive="xs">
-            <thead>
-              <tr>
-                <th>ID</th>
-                <th>Name</th>
-                <th>Batch</th>
-                <th>Age</th>
-                <th>Address</th>
-                <th>Phone Number</th>
-                <th>Email</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-              </tr>
-              <tr>
-                <td>3</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-                <td>Table cell</td>
-              </tr>
-            </tbody>
-          </Table>
-        </div>
-      </div>
+<div className='container mt-5 pt-2'>
+  <div className="table-responsive">
+    <Table style={{ backgroundColor: "#1b4e66" }} className='text-light' responsive>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Batch</th>
+          <th>Age</th>
+          <th>Address</th>
+          <th>Phone Number</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+        </tr>
+        {/* More rows */}
+      </tbody>
+    </Table>
+  </div>
+</div>
+
 
 
 
