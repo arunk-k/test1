@@ -27,7 +27,6 @@ function App() {
 
 
 <div className='container mt-5 pt-2'>
-  <div className="table-responsive">
     <Table style={{ backgroundColor: "#1b4e66" }} className='text-light' responsive="xs">
       <thead>
         <tr>
@@ -53,7 +52,6 @@ function App() {
         {/* More rows */}
       </tbody>
     </Table>
-  </div>
 </div>
 
 
