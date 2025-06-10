@@ -12,14 +12,14 @@ function App() {
       <Navbar style={{ backgroundColor: "#013645" }} expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">
-            <img alt="" src="https://3.files.edl.io/13a9/21/08/13/201110-34ceba90-aad4-4b0a-832a-01b29c744898.png" width="30" height="30" className="d-inline-block align-top" />
+            <img alt="" src="./src/assets/student_icon.jpg" width="60" height="30" className="d-inline-block align-top" />
             {' '}
             <span className='text-light'>Student App</span>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle className='mt-3' aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
-            <Navbar.Text>
-              <Link to={"/"} style={{ backgroundColor: "#04495c", color: "#fcf2f7" }} className='btn btn-light me-3 '>Add Student </Link>
+            <Navbar.Text className=''>
+              <Link to={"/"} style={{ backgroundColor: "#04495c", color: "#fcf2f7" }} className='btn btn-light me-3 '>Add Student <i className="fa-solid fa-plus fa-sm"></i> </Link>
             </Navbar.Text>
           </Navbar.Collapse>
         </Container>
@@ -50,7 +50,24 @@ function App() {
           <td>Table cell</td>
           <td>Table cell</td>
         </tr>
-        {/* More rows */}
+        <tr>
+          <td>1</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+          <td>Table cell</td>
+        </tr>
       </tbody>
     </Table>
   </div>
