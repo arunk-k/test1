@@ -12,7 +12,7 @@ function App() {
       <Navbar style={{ backgroundColor: "#013645" }} expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">
-            <img alt="" src="/src/assets/student_icon.jpg" width="60" height="30" className="d-inline-block align-top" />
+            <img alt="" src="/student_icon.jpg" width="60" height="30" className="d-inline-block align-top" />
             {' '}
             <span className='text-light'>Student App</span>
           </Navbar.Brand>
