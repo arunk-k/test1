@@ -4,8 +4,8 @@ import Form from "react-bootstrap/Form";
 function EditStudent() {
     return (
         <>
-            <div className="vh-100 d-flex justify-content-center align-items-center" >
-                <div className="p-5 rounded shadow" style={{ backgroundColor: "#1b4e66", minWidth: "300px", width: "100%", maxWidth: "500px" }}>
+            <div style={{ background:"linear-gradient(to right,#106c85, #033543)"}} className="vh-100 d-flex justify-content-center align-items-center" >
+                <div className="p-5 rounded border shadow" style={{ background:"linear-gradient(to right,rgb(21, 113, 138), #033543)", minWidth: "300px", width: "100%", maxWidth: "500px" }}>
 
                     <h3 className='ps-4 pt-4 text-light' >Edit Student</h3>
 
@@ -34,8 +34,8 @@ function EditStudent() {
                     </FloatingLabel>
 
                     <div className='d-flex justify-content-center gap-3 mt-4'>
-                        <button style={{ backgroundColor: "#04495c", color: "#fcf2f7" }} className="btn btn-light text-light mb-4 ">Edit Student</button>
-                        <button style={{ backgroundColor: "#04495c", color: "#fcf2f7" }} className="btn btn-light text-light mb-4 px-4">Cancel</button>
+                    <button style={{ backgroundColor: "#01607a" }} className="btn  text-light mb-4 ">Edit Student</button>
+                    <button style={{ backgroundColor: "#455659"}} className="btn  text-light mb-4 px-4">Cancel</button>
                     </div>
                 </div>
             </div>

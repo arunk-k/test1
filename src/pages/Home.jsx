@@ -40,7 +40,7 @@ function Home() {
 
             <div className='container mt-5 pt-2'>
                 <div className="table-responsive">
-                    <Table style={{ backgroundColor: "#1b4e66" }} className='text-light' responsive="xs">
+                    <Table style={{ background: "linear-gradient(to right,rgb(21, 113, 138), #033543)" }} className='text-light border border-2' responsive="xs">
                         <thead>
                             <tr>
                                 <th>ID</th>
@@ -69,7 +69,7 @@ function Home() {
                                     error.length > 0
                                         ?
                                         <tr>
-                                            <td colSpan="7">
+                                            <td colSpan="8">
                                                 <h4>{error}</h4>
                                             </td>
                                         </tr>
@@ -86,12 +86,13 @@ function Home() {
                                                     <td>{student.phone}</td>
                                                     <td>{student.email}</td>
                                                     <td>
-                                                        <Link  to={'/edit'} className="btn btn-sm me-2">
-                                                            <i className="fa-solid fa-pen" style={{ color: "#0a1e24"}}></i>
+                                                        <Link to={`/edit`} className="btn btn-outline-light btn-sm me-2">
+                                                            <i className="fa-solid fa-pen"></i>
                                                         </Link>
-                                                        <button  className="btn btn-sm">
-                                                            <i className="fa-solid fa-trash" style={{ color: "#4f0911"}}></i>
+                                                        <button className="btn btn-outline-danger btn-sm">
+                                                            <i className="fa-solid fa-trash"></i>
                                                         </button>
+
                                                     </td>
                                                 </tr>
                                             ))
