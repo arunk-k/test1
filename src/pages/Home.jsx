@@ -31,7 +31,7 @@ function Home() {
                     <Navbar.Toggle className='custom-toggler' aria-controls="basic-navbar" />
                     <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
                         <Navbar.Text className=''>
-                            <Link to={"/"} style={{ backgroundColor: "#04495c", color: "#fcf2f7" }} className='btn btn-light mb-1 mt-2  '>Add Student <i className="fa-solid fa-plus fa-sm"></i> </Link>
+                            <Link to={"/add"} style={{ backgroundColor: "#04495c", color: "#fcf2f7" }} className='btn btn-light mb-1 mt-2  '>Add Student <i className="fa-solid fa-plus fa-sm"></i> </Link>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
