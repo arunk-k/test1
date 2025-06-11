@@ -1,4 +1,5 @@
 // import './bootstrap.min.css'
+import './App.css'
 
 import Navbar from 'react-bootstrap/Navbar';
 import Table from 'react-bootstrap/Table';
@@ -31,7 +32,7 @@ function App() {
             {' '}
             <span className='text-light'>Student App</span>
           </Navbar.Brand>
-          <Navbar.Toggle style={{backgroundColor:"#0abef0"}} aria-controls="basic-navbar" />
+          <Navbar.Toggle className='custom-toggler' aria-controls="basic-navbar" />
           <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
             <Navbar.Text className=''>
               <Link to={"/"} style={{ backgroundColor: "#04495c", color: "#fcf2f7" }} className='btn btn-light mb-1 mt-2  '>Add Student <i className="fa-solid fa-plus fa-sm"></i> </Link>
