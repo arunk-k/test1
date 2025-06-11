@@ -31,7 +31,7 @@ function App() {
             {' '}
             <span className='text-light'>Student App</span>
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle style={{backgroundColor:"#0591b8"}} aria-controls="basic-navbar" />
           <Navbar.Collapse className='justify-content-end' id="basic-navbar-nav">
             <Navbar.Text className=''>
               <Link to={"/"} style={{ backgroundColor: "#04495c", color: "#fcf2f7" }} className='btn btn-light mb-1 mt-2  '>Add Student <i className="fa-solid fa-plus fa-sm"></i> </Link>
