@@ -40,7 +40,7 @@ function Home() {
 
             <div className='container mt-5 pt-2'>
                 <div className="table-responsive">
-                    <Table style={{ background: "linear-gradient(to right,rgb(21, 113, 138), #033543)" }} className='text-light border border-2' responsive="xs">
+                    <Table style={{ background: "linear-gradient(to right,rgb(21, 113, 138), #033543)" }} className='text-light' responsive="xs">
                         <thead>
                             <tr>
                                 <th>ID</th>
