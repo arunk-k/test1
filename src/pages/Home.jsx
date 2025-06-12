@@ -24,7 +24,7 @@ function Home() {
             <Navbar style={{ backgroundColor: "#013645" }} expand="lg" className="">
                 <Container>
                     <Navbar.Brand href="#home">
-                        <img alt="" src="/student_icon.jpg" width="60" height="30" className="d-inline-block align-top" />
+                        <img alt="" src="https://cdn-icons-png.flaticon.com/512/11246/11246228.png" width="30" height="30" className="d-inline-block align-top" />
                         {' '}
                         <span className='text-light'>Student App</span>
                     </Navbar.Brand>
@@ -45,7 +45,7 @@ function Home() {
                             <tr>
                                 <th>ID</th>
                                 <th>Name</th>
-                                <th>Batch</th>
+                                <th>Department</th>
                                 <th>Age</th>
                                 <th>Address</th>
                                 <th>Phone Number</th>
@@ -86,10 +86,10 @@ function Home() {
                                                     <td>{student.phone}</td>
                                                     <td>{student.email}</td>
                                                     <td>
-                                                        <Link to={`/edit`} className="btn btn-outline-light btn-sm me-2">
+                                                        <Link to={`/edit`} className="btn btn-outline-light btn-sm me-2 mb-2">
                                                             <i className="fa-solid fa-pen"></i>
                                                         </Link>
-                                                        <button className="btn btn-outline-danger btn-sm">
+                                                        <button className="btn btn-outline-danger btn-sm mb-2">
                                                             <i className="fa-solid fa-trash"></i>
                                                         </button>
 

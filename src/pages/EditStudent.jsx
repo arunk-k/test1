@@ -34,8 +34,8 @@ function EditStudent() {
                     </FloatingLabel>
 
                     <div className='d-flex justify-content-center gap-3 mt-4'>
-                    <button style={{ backgroundColor: "#01607a" }} className="btn  text-light mb-4 ">Edit Student</button>
-                    <button style={{ backgroundColor: "#455659"}} className="btn  text-light mb-4 px-4">Cancel</button>
+                    <button style={{ backgroundColor: "#01607a" }} className="btn btn-light  text-light mb-4 ">Edit Student</button>
+                    <button style={{ backgroundColor: "#455659"}} className="btn btn-light  text-light mb-4 px-4">Cancel</button>
                     </div>
                 </div>
             </div>
